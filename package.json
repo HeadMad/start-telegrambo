@@ -1,0 +1,29 @@
+{
+  "name": "start-telegrambo",
+  "version": "1.0.0",
+  "description": "Start Telegrambo project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --env-file .env index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/headmad/start-telegrambo.git"
+  },
+  "keywords": [
+    "telegrambo",
+    "start"
+  ],
+  "author": "HeadMad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/headmad/start-telegrambo/issues"
+  },
+  "homepage": "https://github.com/headmad/start-telegrambo#readme",
+  "dependencies": {
+    "telegrambo": "^0.5.6",
+    "telegrambo-on-match": "^1.0.0",
+    "telegrambo-polling": "^0.9.1"
+  }
+}
